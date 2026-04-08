@@ -1,15 +1,17 @@
-# NWC-CUAHSI Summer Institute 2025: Workshop on Hydrological Model Calibration in the NGIAB Ecosystem
+# 2026 World Environmental & Water Resources Congress - EWRI Technical Workshop: Application of NOAA Next Generation Water Resource Modeling Framework for Hydrological Modeling
 
-[![Workshop](https://img.shields.io/badge/Workshop-NWC--CUAHSI%20Summer%20Institute-blue?labelColor=555)](https://www.cuahsi.org/summer-institute)
+[![Workshop](https://img.shields.io/badge/Workshop-EWRI--Congress%20Technical%20Workshop-blue?labelColor=555)](https://www.cuahsi.org/summer-institute)
 [![NextGen](https://img.shields.io/badge/NextGen-Framework-green.svg)](https://github.com/NOAA-OWP/ngen)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://docs.docker.com/engine/install/)
+[![NOAA](https://img.shields.io/badge/NOAA-CIROH-2496ED.svg)](https://ciroh.ua.edu/)
+[![NGIAB](https://img.shields.io/badge/NGIAB-Ecosystem-2496ED.svg)](https://ngiab.ciroh.org/)
 
 **"How do I calibrate and share the calibrated parameters in a NextGen Framework ecosystem"**
 
-* **📅 Date**: Wednesday, June 18, 2025
-* **⏰ Time**: Wednesday, June 18 | 10:45 – 12 pm CT
-* **📍 Location**: Cyber Hall GWSC classroom, Room number 1160, 248 Kirkbride Ln, Tuscaloosa, AL 35401
-* **🏛️ Organized by**: [CUAHSI](https://www.cuahsi.org/summer-institute) and [The University of Alabama](https://ciroh.ua.edu/devconference/)
+* **📅 Date**: Sunday, April 26, 2025
+* **⏰ Time**: 01:00 – 5:00 pm CT
+* **📍 Location**: Mobile Convention Center | 1 South Water Street, Mobile, AL 36602 | Room: 203 A
+* **🏛️ Organized by**: [CIROH](https://ciroh.ua.edu/), [Alabama Water Institute](https://www.cuahsi.org/summer-institute), [The University of Alabama](https://ciroh.ua.edu/devconference/)
 
 ---
 
@@ -17,22 +19,11 @@
 
 This `GitHub repository`, which serves as the central hub for all workshop materials, tools, detailed instructions, pre-conference and other relevant information, was prepared and is maintained by [Sifan A. Koriche](https://github.com/skoriche) and [Josh Cunningham](https://github.com/JoshCu).
 
-## 🚀 Quick Start
-
-**Ready to jump in?** Choose your path:
-
-| I want to... | Go to... |
-|--------------|----------|
-| **Start calibrating immediately** | [**🚀 Quickstart Guide**](../../wiki/Quickstart-Guide) |
-| **Understand the process first** | [📚 Step-by-Step Instructions](../../wiki/Step-by-Step-Instructions) |
-| **Learn about NextGen** | [🔍 What is NextGen?](../../wiki/What-is-NextGen) |
-| **Modify the code** | [⚙️ Development Setup](../../wiki/Development-Setup) |
-
 ---
 
 ## 🎯 Workshop Purpose
 
-This hands-on workshop provides comprehensive guidance for hydrological model calibration, regionalization, and parameter sharing within the NextGen In A Box (NGIAB) ecosystem. You'll gain practical experience using open-source tools with pre-configured datasets.
+This comprehensive, half-day workshop provides a deep dive into the Next-Generation Water Resources Modeling Framework (NextGen), a model-agnostic and standards-based software tool that facilitates model interoperability. The workshop is split into two parts: an exploration of the broader NextGen Framework and a hands-on session on hydrological model calibration within the NextGen In a Box (NGIAB) ecosystem. This workshop is highly relevant to professionals and students interested in US operational hydrological forecasting pipelines. You'll gain practical experience using open-source tools with pre-configured datasets.
 
 ### What You'll Learn
 
