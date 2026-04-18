@@ -45,8 +45,11 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 ## 🛠️ Prerequisites
 
 **Data**
-- Create your own `uvx --from ngiab_data_preprocess cli -i gage-10154200 --start 2007-10-01 --end 2013-09-30 -srf --source aorc`
-- Or Download workshop data: `https://communityhydrofabric.s3.us-east-1.amazonaws.com/example_data/provo-10154200.tar.gz` [Click Here to Download](https://communityhydrofabric.s3.us-east-1.amazonaws.com/example_data/provo-10154200.tar.gz)
+- Download workshop data:
+    - Choctawhatchee River Near Newton, AL (USGS-02361000) -- [Click Here to Download](https://ciroh-awi-ewri-data.s3.us-east-1.amazonaws.com/EWRI26_USGS_02361000.tar.gz)
+    - Sipsey Fork Near Grayson, AL (USGS-02450250) -- [Click Here to Download](https://ciroh-awi-ewri-data.s3.us-east-1.amazonaws.com/EWRI26_USGS_02450250.tar.gz)
+    - Provo River Near Woodland, UT (USGS-10154200) -- [Click Here to Download](https://ciroh-awi-ewri-data.s3.us-east-1.amazonaws.com/EWRI26_USGS_10154200.tar.gz)
+ - Or Create your own using this command `uvx ngiab-prep -i gage-02450250 --start 2007-10-01 --end 2016-09-30 --source aorc -sfr -o EWRI26_USGS_02450250`
 
 
 **Minimum Requirements:**
