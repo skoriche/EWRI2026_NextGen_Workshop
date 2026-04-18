@@ -28,10 +28,9 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 - ✅ **Parameter Management** - Share and collaborate on calibrated parameters effectively
 - ✅ **Best Practices** - Learn from experts and discuss real-world challenges
 
-### Workshop Workflow
 <details>
   <summary>
-   diagram
+    <h2>Workshop Workflow</h2>
   </summary>
 
 ![Workshop Workflow](./Information/figures/Workflow-Figure.png)
@@ -41,7 +40,6 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 *[graphics by Sifan A. Koriche]*
 
 </details>
----
 
 ## 🛠️ Prerequisites
 
@@ -70,8 +68,9 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 
 <details>
   <summary>
-<h2>🧩 The NGIAB Ecosystem
+<h2>🧩 The NGIAB Ecosystem</h2>
   </summary>
+
 
 | Tool | Purpose | Type |
 |------|---------|------|
@@ -82,7 +81,7 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 
 > 🔧 **Learn more**: [Tools and Modules](../../wiki/Tools-and-Modules)  
 
-<\details>
+</details>
 
 
 ---
