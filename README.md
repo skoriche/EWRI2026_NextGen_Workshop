@@ -19,14 +19,7 @@ This `GitHub repository`, which serves as the central hub for all workshop mater
 
 ## 🎯 Workshop Purpose
 
-This comprehensive, half-day workshop provides a deep dive into the Next-Generation Water Resources Modeling Framework (NextGen), a model-agnostic and standards-based software tool that facilitates model interoperability. The workshop is split into two parts: an exploration of the broader NextGen Framework and a hands-on session on hydrological model calibration within the NextGen In a Box (NGIAB) ecosystem. This workshop is highly relevant to professionals and students interested in US operational hydrological forecasting pipelines. You'll gain practical experience using open-source tools with pre-configured datasets.
-
-### What You'll Learn
-
-- ✅ **Model Calibration Fundamentals** - Theory and practice of improving hydrological model accuracy
-- ✅ **Hands-on NextGen Experience** - Complete calibration workflows using real tools and data
-- ✅ **Parameter Management** - Share and collaborate on calibrated parameters effectively
-- ✅ **Best Practices** - Learn from experts and discuss real-world challenges
+This comprehensive, half-day workshop provides a deep dive into the **Next-Generation Water Resources Modeling Framework (NextGen)**, a model-agnostic and standards-based software tool that facilitates model interoperability. The workshop covers two parts: an exploration of the broader NextGen Framework **End-to-End implementation** and a hands-on session on **hydrological model calibration** within the NextGen In a Box (NGIAB) ecosystem. This workshop is highly relevant to professionals and students interested in US operational hydrological forecasting pipelines. You'll gain practical experience using open-source tools with pre-configured datasets.
 
 <details>
   <summary>
@@ -37,9 +30,17 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 
 *Figure 1: End-to-end visual representation of the NextGen In A Box (NGIAB) ecosystem's hydrological simulation workflow, detailing phases for data preparation, model simulation, parameter calibration, and output analysis steps. 1) Python CLI data preparation modules for NGIAB, 2a) NGIAB Docker image, 2b) NGIAB-cal Docker image + Python CLI for Calibration, and 3) TEEHR evaluation + visualizer*
 
-*[graphics by Sifan A. Koriche]*
-
 </details>
+
+The workflow involves End-to-End implementation of NexGen Framework in the NGIAB ecosystem followed by hands-on calibration exercise. Participants can choose between two calibration tools depending on the platform used: 
+
+
+| Tool | Backend | 2i2c | Local | Highlights |
+|------|---------|------|-------|------------|
+| [**NGIAB-Cal**](https://github.com/CIROH-UA/ngiab-cal) | Docker (`ngen-cal`) | ❌ | ✅ | CLI-driven, DDS, plots + metrics written to disk |
+| [**NGIAB-Spotpy / ewri_cal**](https://github.com/JoshCu/ewri_cal) | MPI on 2i2c / Docker locally / optional Rust | ✅ (required) | ✅ | Script-first, SpotPy (DDS or SCE), live TensorBoard |
+
+> ☁️ **Workshop participants on 2i2c** will use `ewri_cal` — it's pre-installed at `/ewri_cal/` with the three workshop gages already extracted under `data/`. See the [wiki page](../../wiki/spotpy) for the run command and TensorBoard setup.
 
 ## 🛠️ Prerequisites
 
@@ -66,17 +67,6 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 - [NGIAB 101 Training Module](https://docs.ciroh.org/training-NGIAB-101/)
 - [NGIAB-Spotpy (ewri_cal)](https://github.com/JoshCu/ewri_cal) - SpotPy-based calibration harness with live TensorBoard dashboards ([wiki page](../../wiki/spotpy))
 - [Development Setup](../../wiki/Development-Setup) - Modify and extend tools
-
-### 🔀 Two calibration paths
-
-Participants can choose between two calibration tools depending on where they're running:
-
-| Tool | Backend | 2i2c | Local | Highlights |
-|------|---------|------|-------|------------|
-| [**NGIAB-Cal**](https://github.com/CIROH-UA/ngiab-cal) | Docker (`ngen-cal`) | ❌ | ✅ | CLI-driven, DDS, plots + metrics written to disk |
-| [**NGIAB-Spotpy / ewri_cal**](https://github.com/JoshCu/ewri_cal) | MPI on 2i2c / Docker locally / optional Rust | ✅ (required) | ✅ | Script-first, SpotPy (DDS or SCE), live TensorBoard |
-
-> ☁️ **Workshop participants on 2i2c** will use `ewri_cal` — it's pre-installed at `/ewri_cal/` with the three workshop gages already extracted under `data/`. See the [wiki page](../../wiki/spotpy) for the run command and TensorBoard setup.
 
 <details>
   <summary>
