@@ -64,7 +64,19 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 
 - [NGIAB Website](https://ngiab.ciroh.org)
 - [NGIAB 101 Training Module](https://docs.ciroh.org/training-NGIAB-101/)
+- [NGIAB-Spotpy (ewri_cal)](https://github.com/JoshCu/ewri_cal) - SpotPy-based calibration harness with live TensorBoard dashboards ([wiki page](../../wiki/spotpy))
 - [Development Setup](../../wiki/Development-Setup) - Modify and extend tools
+
+### 🔀 Two calibration paths
+
+Participants can choose between two calibration tools depending on where they're running:
+
+| Tool | Backend | 2i2c | Local | Highlights |
+|------|---------|------|-------|------------|
+| [**NGIAB-Cal**](https://github.com/CIROH-UA/ngiab-cal) | Docker (`ngen-cal`) | ❌ | ✅ | CLI-driven, DDS, plots + metrics written to disk |
+| [**NGIAB-Spotpy / ewri_cal**](https://github.com/JoshCu/ewri_cal) | MPI on 2i2c / Docker locally / optional Rust | ✅ (required) | ✅ | Script-first, SpotPy (DDS or SCE), live TensorBoard |
+
+> ☁️ **Workshop participants on 2i2c** will use `ewri_cal` — it's pre-installed at `/ewri_cal/` with the three workshop gages already extracted under `data/`. See the [wiki page](../../wiki/spotpy) for the run command and TensorBoard setup.
 
 <details>
   <summary>
@@ -78,6 +90,7 @@ This comprehensive, half-day workshop provides a deep dive into the Next-Generat
 | [**NGIAB-Cal**](https://github.com/CIROH-UA/ngiab-cal/tree/19d5ded2ae365f333b0ac6a971c2e7028c7014a4) | Configure and run calibration | Python CLI |
 | [**NGIAB**](https://github.com/CIROH-UA/NGIAB-CloudInfra/tree/41570096a5273393f2e3a0121d02e643bc6ce34d) | NextGen framework container | Docker Image |
 | [**NGEN-Cal**](https://github.com/CIROH-UA/ngen-cal/tree/f450a9d2e992adf0e110711c559551623b73932d) | Calibration algorithms and analysis | Docker Image |
+| [**NGIAB-Spotpy (ewri_cal)**](https://github.com/JoshCu/ewri_cal) | SpotPy-based calibration with TensorBoard — required on 2i2c, optional locally | Python script |
 
 > 🔧 **Learn more**: [Tools and Modules](../../wiki/Tools-and-Modules)  
 
