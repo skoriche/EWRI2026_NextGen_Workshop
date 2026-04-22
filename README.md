@@ -23,7 +23,7 @@ This comprehensive, half-day workshop provides a deep dive into the **Next-Gener
 
 <details>
   <summary>
-    <h2>Workshop Workflow</h2>
+    <h2>Workshop Workflow</h2> click to show more
   </summary>
 
 ![Workshop Workflow](./Information/figures/Workflow-Figure.png)
@@ -32,9 +32,17 @@ This comprehensive, half-day workshop provides a deep dive into the **Next-Gener
 
 </details>
 
-The workflow involves End-to-End implementation of NexGen Framework in the NGIAB ecosystem followed by hands-on calibration exercise. Participants can choose between two calibration tools depending on the platform used: 
+The workflow involves End-to-End execution of NexGen Framework in the NGIAB ecosystem followed by hands-on calibration exercise. 
+### 1) Nextgen Tools
+| Tool | 2i2c | Cloud VM* | Local | Notes |
+|------|------|------|-------|-------|
+| [**NGIAB**](https://github.com/ciroh-ua/ngiab-cloudinfra) | ❌ | ✅ | ✅ | Containerized and user-friendly solution for running the NextGen framework |
+| [**Guide script**](../../wiki/running-ngiab) | ❌ | ✅ | ✅ | Script for running nextgen in a box, visualization, and evalutation |
 
+\* Virtual Machine (VM) _(aws ec2, gcp, Jetstream, openstack, etc)_
 
+### 2) Calibration Tools
+Participants can choose between two calibration tools depending on the platform used: 
 | Tool | Backend | 2i2c | Local | Highlights |
 |------|---------|------|-------|------------|
 | [**NGIAB-Cal**](https://github.com/CIROH-UA/ngiab-cal) | Docker (`ngen-cal`) | ❌ | ✅ | CLI-driven, DDS, plots + metrics written to disk |
@@ -70,7 +78,7 @@ The workflow involves End-to-End implementation of NexGen Framework in the NGIAB
 
 <details>
   <summary>
-<h2>🧩 The NGIAB Ecosystem</h2>
+<h2>🧩 The NGIAB Ecosystem</h2>  click to show more
   </summary>
 
 
